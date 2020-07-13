@@ -7,4 +7,4 @@ WORKDIR /app
 COPY requirements.txt /app
 RUN pip install -r requirements.txt --no-cache
 
-CMD ["gunicorn", "app:api"]
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "app:api"]
