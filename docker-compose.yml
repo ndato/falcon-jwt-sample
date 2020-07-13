@@ -1,6 +1,6 @@
 version: '3'
 services:
-  ic-ingest-api:
+  falcon-jwt-sample:
     image: app:1.0
     build: .
     volumes:

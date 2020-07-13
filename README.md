@@ -2,7 +2,7 @@
 Sample implementation of Python 3.8, Falcon API, and falcon-auth on Docker.
 
 # How to run?
-1. Make sure you have Python 3.8 and Virtualenv on your machine.
+1. Make sure you have `Python 3.8` and `Virtualenv` on your machine.
 ```
     $ sudo apt-get install python3.8 virtualenv
 ```
