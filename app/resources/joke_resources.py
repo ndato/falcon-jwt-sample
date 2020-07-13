@@ -7,4 +7,4 @@ class JokeResource:
     # Method mapped on POST requests
     def on_get(self, req, resp):
         dadjoke = Dadjoke()
-        resp.body = dadjoke.joke
+        resp.media = dadjoke.joke
